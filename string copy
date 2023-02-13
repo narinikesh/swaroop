@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main() 
+{
+  char str1[20] = "swaroop";
+  char str2[20];
+  strcpy(str2, str1);
+  puts(str2); 
+  return 0;
+}
